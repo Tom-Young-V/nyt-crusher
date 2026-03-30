@@ -99,7 +99,7 @@ The server listens on `http://127.0.0.1:5000/`.
 1. Open one of the supported pages:
    * `https://wafflegame.net/` (daily or deluxe)
    * `https://squaredle.app/`
-2. Press the extension command: **Ctrl+Shift+9** (macOS uses Command+Shift+9)
+2. Press the extension command: **Ctrl+Shift+9** or press the logo added by the extension in the top right corner of the webpage
 3. The extension will:
    * extract the board state
    * POST it to the Flask endpoint
