@@ -1,0 +1,29 @@
+{
+	"manifest_version": 3,
+	"name": "Daily Games Helper Test",
+	"description": "Solve games like Wordle, Connections, NYT Mini, Waffle.",
+	"version": "1.0",
+
+	"background": {
+		"service_worker": "background.js"
+	},
+
+	"permissions": ["activeTab", "webNavigation", "commands"],
+
+	"commands": {
+		"solvePuzzle": {
+			"suggested_key": {
+				"default": "Ctrl+Shift+9",
+				"mac": "Command+Shift+9"
+			},
+			"description": "Activate Solver"
+		}
+	},
+
+	"content_scripts": [
+		{
+			"matches": ["https://wafflegame.net/daily"],
+			"js": ["content.js"]
+		}
+	]
+}

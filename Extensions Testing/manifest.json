@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Game Helper Extension",
+  "version": "1.0",
+  "description": "A Google Chrome extension to provide hints and solutions for various games.",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "action": {
+    "default_icon": {
+      "16": "images/icon-16.png",
+      "32": "images/icon-32.png",
+      "48": "images/icon-48.png",
+      "128": "images/icon-128.png"
+    },
+    "default_popup": "popup.html",
+    "default_title": "Game Helper Extension"
+  },
+  "icons": {
+    "16": "images/icon-16.png",
+    "32": "images/icon-32.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://wafflegame.net/daily"],
+      "js": ["content.js"]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+NYT Crusher
+📁 Connections Solver
+    📁 Connections ChatGPT
+        📁 Fine Tuning Data Sets
+            📄 allocateData.py
+            📄 dataAnalysis.py
+            📄 formattedConversations.jsonl
+            📄 smallDataSet.jsonl
+            📄 superSmallDataSet.jsonl
+        📄 chatGPTRequests.py
+        📄 fineTuningTest.py
+        📄 getDataFineTuning.py
+        📄 getFormattedConversations.py
+    📁 Connections Web Scraping
+        📄 connectionsArchive.py
+        📄 connectionsArchiveScraping.py
+        📄 connectionsDailyScraping.py
+    📄 connectionsSolver.py
+    📄 connectionsSolverArchiveTesting.py
+📁 Waffle Solver
+    📁 Waffle Web Scraping
+        📄 allGrids.py
+        📄 deluxeGridsData.txt
+        📄 getArchiveGrids.py
+        📄 waffleArchiveScraping.py
+        📄 waffleGridsData.txt
+        📄 waffleGridsNaive.txt
+        📄 waffleScraping.py
+    📄 allDeluxeWords.txt
+    📄 allWords.txt
+    📄 test.py
+    📄 test.txt
+    📄 waffleSolver.py
+    📄 waffleSolverArchiveTesting.py
+    📄 waffleSolverOld.py
+    📄 words.py
+📁 Wordle Solver
+    📄 wordleSolver.py
+    📄 words.py
+📄 app.py
+📄 background.js
+📄 content.js
+📄 fileOrganizationDiagram.py
+📄 manifest.json
+📄 popup.html
+📄 popup.js
