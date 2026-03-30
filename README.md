@@ -6,7 +6,7 @@ This repo showcases hands-on engineering across:
 * browser automation + DOM state extraction (JavaScript)
 * algorithmic puzzle solving (Python)
 * API design between a frontend extension and a local backend (Flask/CORS)
-* optional LLM-based assistance for Connections (prompting + dataset utilities)
+* LLM-based assistance and fine-tuning LLMs for solving Connections
 
 ---
 
@@ -104,6 +104,7 @@ The server listens on `http://127.0.0.1:5000/`.
    * extract the board state
    * POST it to the Flask endpoint
    * apply the returned next move(s) through simulated pointer events
+   * automatically click the divs on the website and complete the game in record time
 
 ---
 
